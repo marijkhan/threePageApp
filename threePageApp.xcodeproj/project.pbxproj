@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		919A7992DCF60C3E9242FA07 /* Pods_threePageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6448BAD68338FDAD97AF172E /* Pods_threePageApp.framework */; };
 		DC57E31421809D5B00E9C2DC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57E31321809D5B00E9C2DC /* Item.swift */; };
 		DC57E3182180A29400E9C2DC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57E3172180A29400E9C2DC /* Menu.swift */; };
 		DC57E31A2180AEEB00E9C2DC /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57E3192180AEEB00E9C2DC /* ItemTableViewCell.swift */; };
 		DC57E31C2180B25400E9C2DC /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57E31B2180B25400E9C2DC /* ItemsTableViewController.swift */; };
+		DC57E31E218B41E500E9C2DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57E31D218B41E500E9C2DC /* MapViewController.swift */; };
 		DC9A15C6217E05BC0024F2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A15C5217E05BC0024F2BA /* AppDelegate.swift */; };
 		DC9A15C8217E05BC0024F2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A15C7217E05BC0024F2BA /* ViewController.swift */; };
 		DC9A15CB217E05BC0024F2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A15C9217E05BC0024F2BA /* Main.storyboard */; };
@@ -20,10 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F023969400CB5CEC869C0CD /* Pods-threePageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-threePageApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-threePageApp/Pods-threePageApp.release.xcconfig"; sourceTree = "<group>"; };
+		5AEE4DE65ACE7B10210D2C92 /* Pods-threePageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-threePageApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-threePageApp/Pods-threePageApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6448BAD68338FDAD97AF172E /* Pods_threePageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_threePageApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC57E31321809D5B00E9C2DC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DC57E3172180A29400E9C2DC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		DC57E3192180AEEB00E9C2DC /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		DC57E31B2180B25400E9C2DC /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		DC57E31D218B41E500E9C2DC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DC9A15C2217E05BC0024F2BA /* threePageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threePageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A15C5217E05BC0024F2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9A15C7217E05BC0024F2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,12 +45,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919A7992DCF60C3E9242FA07 /* Pods_threePageApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D145B7913A47D75F72A509A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6448BAD68338FDAD97AF172E /* Pods_threePageApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC57E31521809D6B00E9C2DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +76,7 @@
 				DC9A15D7218033D20024F2BA /* MenuViewController.swift */,
 				DC57E3192180AEEB00E9C2DC /* ItemTableViewCell.swift */,
 				DC57E31B2180B25400E9C2DC /* ItemsTableViewController.swift */,
+				DC57E31D218B41E500E9C2DC /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -70,6 +86,8 @@
 			children = (
 				DC9A15C4217E05BC0024F2BA /* threePageApp */,
 				DC9A15C3217E05BC0024F2BA /* Products */,
+				E6A942147B7A5943BB789CD7 /* Pods */,
+				0D145B7913A47D75F72A509A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +113,15 @@
 			path = threePageApp;
 			sourceTree = "<group>";
 		};
+		E6A942147B7A5943BB789CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AEE4DE65ACE7B10210D2C92 /* Pods-threePageApp.debug.xcconfig */,
+				0F023969400CB5CEC869C0CD /* Pods-threePageApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9A15D4217E05BC0024F2BA /* Build configuration list for PBXNativeTarget "threePageApp" */;
 			buildPhases = (
+				23201B7A6A07CF606178A0B6 /* [CP] Check Pods Manifest.lock */,
 				DC9A15BE217E05BC0024F2BA /* Sources */,
 				DC9A15BF217E05BC0024F2BA /* Frameworks */,
 				DC9A15C0217E05BC0024F2BA /* Resources */,
+				228AE8DDD848461B7F20DE46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +191,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		228AE8DDD848461B7F20DE46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-threePageApp/Pods-threePageApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-threePageApp/Pods-threePageApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23201B7A6A07CF606178A0B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-threePageApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC9A15BE217E05BC0024F2BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -174,6 +246,7 @@
 				DC57E31A2180AEEB00E9C2DC /* ItemTableViewCell.swift in Sources */,
 				DC57E3182180A29400E9C2DC /* Menu.swift in Sources */,
 				DC57E31C2180B25400E9C2DC /* ItemsTableViewController.swift in Sources */,
+				DC57E31E218B41E500E9C2DC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +381,7 @@
 		};
 		DC9A15D5217E05BC0024F2BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEE4DE65ACE7B10210D2C92 /* Pods-threePageApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +397,7 @@
 		};
 		DC9A15D6217E05BC0024F2BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F023969400CB5CEC869C0CD /* Pods-threePageApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

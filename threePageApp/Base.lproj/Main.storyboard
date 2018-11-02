@@ -25,40 +25,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mcd_logo" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-0E-MLK">
-                                <rect key="frame" x="62" y="65" width="290" height="232"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="credit-card-logos" translatesAutoresizingMaskIntoConstraints="NO" id="MJQ-ua-Abi">
+                                <rect key="frame" x="82" y="544.33333333333337" width="250" height="49.666666666666629"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzE-y0-SmR">
-                                <rect key="frame" x="62" y="347" width="290" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <state key="normal" title="Menu">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UZd-fh-wk6" kind="show" id="8ng-fI-UvD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ed4-eJ-RHe">
-                                <rect key="frame" x="62" y="424" width="290" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.77254901960784317" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <state key="normal" title="Location">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="QGD-Jc-3vf" kind="show" id="t9l-R5-Isf"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit-card-logos" translatesAutoresizingMaskIntoConstraints="NO" id="MJQ-ua-Abi">
-                                <rect key="frame" x="87" y="607" width="240" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mcd_logo" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-0E-MLK">
+                                <rect key="frame" x="67" y="20" width="280" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="255" id="csX-Ca-GQK"/>
+                                </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qQZ-6l-fY2">
+                                <rect key="frame" x="80" y="305" width="254" height="168"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzE-y0-SmR">
+                                        <rect key="frame" x="0.0" y="0.0" width="254" height="80"/>
+                                        <color key="backgroundColor" red="1" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                        <state key="normal" title="Menu">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="UZd-fh-wk6" kind="show" id="8ng-fI-UvD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ed4-eJ-RHe">
+                                        <rect key="frame" x="0.0" y="88" width="254" height="80"/>
+                                        <color key="backgroundColor" red="1" green="0.77254901960784317" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                        <state key="normal" title="Location">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="QGD-Jc-3vf" kind="show" id="t9l-R5-Isf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wPT-0E-MLK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="35g-Jc-HQX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MJQ-ua-Abi" secondAttribute="bottom" constant="78" id="3Py-PL-hQp"/>
+                            <constraint firstItem="MJQ-ua-Abi" firstAttribute="top" secondItem="qQZ-6l-fY2" secondAttribute="bottom" constant="71" id="7qI-c1-JAy"/>
+                            <constraint firstItem="wPT-0E-MLK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="GB4-nw-1r4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MJQ-ua-Abi" secondAttribute="trailing" constant="82" id="Juq-mz-ZWh"/>
+                            <constraint firstItem="qQZ-6l-fY2" firstAttribute="top" secondItem="wPT-0E-MLK" secondAttribute="bottom" constant="30" id="K2C-2j-Rc0"/>
+                            <constraint firstAttribute="bottom" secondItem="qQZ-6l-fY2" secondAttribute="bottom" constant="199" id="aKt-yW-3ld"/>
+                            <constraint firstItem="qQZ-6l-fY2" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="d1T-fn-TXq"/>
+                            <constraint firstItem="MJQ-ua-Abi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="lze-0e-SMa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qQZ-6l-fY2" secondAttribute="trailing" constant="80" id="oFP-EM-WSb"/>
+                            <constraint firstItem="wPT-0E-MLK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ypG-ar-XQv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qqz-Lj-0PX"/>
@@ -234,19 +251,27 @@
         <!--Map-->
         <scene sceneID="ly4-Yk-5sP">
             <objects>
-                <viewController title="Map" id="QGD-Jc-3vf" sceneMemberID="viewController">
+                <viewController title="Map" id="QGD-Jc-3vf" customClass="MapViewController" customModule="threePageApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Clg-vW-HZV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="UA1-PP-ePn">
-                                <rect key="frame" x="45" y="130" width="324" height="477"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="67O-1p-maR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="67O-1p-maR" firstAttribute="leading" secondItem="lzT-wh-7ZH" secondAttribute="leading" id="9eW-VT-5Tb"/>
+                            <constraint firstItem="lzT-wh-7ZH" firstAttribute="bottom" secondItem="67O-1p-maR" secondAttribute="bottom" id="Kf6-bK-Mpa"/>
+                            <constraint firstItem="67O-1p-maR" firstAttribute="top" secondItem="lzT-wh-7ZH" secondAttribute="top" id="ZHU-YF-l0U"/>
+                            <constraint firstItem="lzT-wh-7ZH" firstAttribute="trailing" secondItem="67O-1p-maR" secondAttribute="trailing" id="pQl-eh-Keg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lzT-wh-7ZH"/>
                     </view>
+                    <connections>
+                        <outlet property="mapViewContainer" destination="67O-1p-maR" id="irC-ou-hsB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gaf-9T-Y1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -274,7 +299,6 @@
     </scenes>
     <resources>
         <image name="credit-card-logos" width="3143" height="691"/>
-        <image name="map" width="549" height="323"/>
         <image name="mcd_logo" width="560" height="420"/>
     </resources>
 </document>
